@@ -1,10 +1,9 @@
-# 🧾 Automat_Request -- fetch_users.py
+# 🧾 Automat_Request - fetch_users.py
 
 ## 📘 Description du projet
 Ce projet contient un script Python nommé **`fetch_users.py`** qui récupère des données d'utilisateurs depuis une **API publique**, les traite, et génère un **rapport CSV**.  
 Il s'agit d'un exercice typique d'automatisation qu'un ingénieur IT ou un développeur pourrait rencontrer, par exemple pour intégrer ou analyser des données externes.
 
----
 
 ## 🚀 Fonctionnalités
 
@@ -31,7 +30,6 @@ Le script réalise les actions suivantes :
    - Réponse JSON invalide  
    - Erreur lors de l’écriture du fichier CSV  
 
----
 
 ## 🧩 Exemple de sortie console
 
@@ -40,7 +38,6 @@ Le script réalise les actions suivantes :
 📊 Total users: 10 | Companies: ['Deckow-Crist', 'Romaguera-Crona', 'Romaguera-Jacobson', 'Romaguera-Jacobson', ...]
 ````
 
----
 
 ## 📄 Exemple de contenu du fichier `users_report.csv`
 
@@ -50,18 +47,10 @@ Le script réalise les actions suivantes :
 | Ervin Howell  | Antonette | [Shanna@melissa.tv](mailto:Shanna@melissa.tv) | Deckow-Crist    |
 | ...           | ...       | ...                                           | ...             |
 
----
 
-## 🛠️ Installation et exécution
+## 🛠️ Exécution
 
-### 1. Cloner ou télécharger le projet
-
-```bash
-git clone https://github.com/ton-utilisateur/fetch_users.git
-cd fetch_users
-```
-
-### 2. Vérifier que Python est installé
+### 1. Vérifier que Python est installé
 
 ```bash
 python --version
@@ -73,7 +62,7 @@ ou
 python3 --version
 ```
 
-### 3. Installer les dépendances
+### 2. Installer les dépendances
 
 ```bash
 pip install requests
@@ -85,7 +74,7 @@ ou
 pip3 install requests
 ```
 
-### 4. Exécuter le script
+### 3. Exécuter le script
 
 ```bash
 python fetch_users.py
@@ -97,19 +86,6 @@ ou
 python3 fetch_users.py
 ```
 
----
-
-## ⚙️ Structure du projet
-
-```
-fetch_users/
-│
-├── fetch_users.py      # Script principal
-├── users_report.csv    # Fichier CSV généré (créé après exécution)
-└── README.md           # Documentation du projet
-```
-
----
 
 ## 🧠 Notes techniques
 
@@ -128,7 +104,6 @@ fetch_users/
   * `requests`
   * `csv` (native à Python)
 
----
 
 ## 🧪 Tests manuels
 
@@ -138,26 +113,7 @@ Tu peux tester la gestion des erreurs en :
 * Changeant l’URL de l’API (`/userx` au lieu de `/users`) pour simuler une erreur HTTP 404.
 * Rendant le fichier CSV en lecture seule pour tester une erreur d’écriture.
 
----
 
 ## 🧑‍💻 Auteur
 
-Projet réalisé par **[Ton Nom ou Pseudo]**
-📧 Contact : [[ton.email@example.com](mailto:ton.email@example.com)]
-🌐 GitHub : [https://github.com/ton-utilisateur](https://github.com/ton-utilisateur)
-
----
-
-## 📜 Licence
-
-Ce projet est libre d’utilisation à des fins éducatives et personnelles.
-Aucune donnée réelle n’est utilisée — l’API `jsonplaceholder.typicode.com` fournit des **données factices** à des fins de test.
-
----
-
-```
-
----
-
-Souhaites-tu que je te reformate ce README pour qu’il soit **optimisé pour GitHub** (avec badges, emojis clairs et liens vers les outils utilisés) ?
-```
+Projet réalisé par **Halid13**
